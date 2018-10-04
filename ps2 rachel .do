@@ -1,11 +1,12 @@
-Rachel Wagner 
-Problem Set 2
-October 4th 2018 
+*Rachel Wagner 
+//Problem Set 2
+October 4th 2018 //the preamble needs to be commented out!
 
-version 15// for grandkids 
-set more off// will run everything 
+//and there needs to be space before //
+version 15 // for grandkids 
+set more off // will run everything 
 cap log close // supresses error 
-sysdir// to see where stata saves stuff 
+sysdir // to see where stata saves stuff 
 
 pwd// where we are 
 ls// lists what we have 
@@ -13,7 +14,7 @@ cd DirectedStudy
 ls 
 
 *books
-insheet using /home/u1/Downloads/book.csv, clear
+insheet using /home/u1/Downloads/book.csv, clear //the data must load from github or google dribve or somewhere
 ta subject
 //edit isbn13
 format  %16.0g isbn13
