@@ -1,3 +1,17 @@
+Rachel Wagner 
+Problem Set 2
+October 4th 2018 
+
+version 15
+set more off
+cap log close 
+sysdir
+
+pwd// where 
+ls
+cd DirectedStudy 
+ls 
+
 *books
 insheet using /home/u1/Downloads/book.csv, clear
 ta subject
