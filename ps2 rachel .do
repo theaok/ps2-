@@ -2,14 +2,14 @@ Rachel Wagner
 Problem Set 2
 October 4th 2018 
 
-version 15
-set more off
-cap log close 
-sysdir
+version 15// for grandkids 
+set more off// will run everything 
+cap log close // supresses error 
+sysdir// to see where stata saves stuff 
 
-pwd// where 
-ls
-cd DirectedStudy 
+pwd// where we are 
+ls// lists what we have 
+cd DirectedStudy
 ls 
 
 *books
